@@ -1,0 +1,4 @@
+# CSC365 Project 3
+
+- Extend Assignment 2 to record links from each of at least 1000 business to its four geographically closest neighbors. Use the Haversine formula based on longitudes and latitudes. Because some of the Yelp records are geographically clustered, you might pick say every 100th record from the orignal data set to avoid all being from one city or state. As a connectivity check, report the number of disjoint sets (from arbitrary roots). Store persistently (possibly just in a Serialized file).
+- Write a program (either GUI or web-based) that uses graph from step 1, allows a user to select two nodes, and displays the shortest (weighted using any similarity metric other than geographical distance) path between them, using connected sets from step 1 to determine reachability. Minimally, the path can be indicated by a series of sites, but you are encouraged to also graphically display links not taken for each site along the path
